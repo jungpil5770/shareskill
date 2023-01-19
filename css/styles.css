@@ -1,0 +1,93 @@
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.carousel-inner .carousel-item{
+  height: 400px;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-inner .item1{
+  background-image: url(../images/guitar.jpg);
+  background-position: left center;
+}
+.carousel-inner .item2{
+  background-image: url(../images/makeup.jpg);
+  background-position: center top;
+}
+.carousel-inner .item3{
+  background-image: url(../images/cooking.jpg);
+  background-position: center;
+}
+
+.carousel-inner .carousel-item .intro{
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.carousel-inner .carousel-item .intro .h2{
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.carousel-inner .carousel-item .intro .h3{
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+.carousel-inner .carousel-item .intro a{
+  width: 130px;
+  background-color: #5900e7;
+  border-radius: 2px;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container{
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.container .row .course{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.container .row .course .course-img{
+  width: 100%;
+}
+
+.container .row .course .info{
+  padding: 10px;
+}
+
+.container .row .course .info h4{
+  font-size: 17px;
+  color: #4a4a4a;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.container .row .course .info .lacture{
+  font-size: 13px;
+  color: #4a4a4a;
+}
+
+.container .row .course .info .lacture img{
+  width: 20px;
+  height: 20px;
+}
